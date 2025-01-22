@@ -24,3 +24,5 @@ Let's see the step by step real world example of Builder Design Pattern.
     Step 3:Create an abstract class ColdDrink that will implement to the interface Item.
     Step 4:Create an abstract class VegPizza that will extend to the abstract class Pizza.
     Step 5:Create an abstract class NonVegPizza that will extend to the abstract class Pizza.
+    Step 6:Now, create concrete sub-classes SmallCheezePizza, MediumCheezePizza, LargeCheezePizza,
+            ExtraLargeCheezePizza that will extend to the abstract class VegPizza.
