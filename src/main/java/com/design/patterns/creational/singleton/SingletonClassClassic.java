@@ -1,4 +1,4 @@
-package com.design.patterns.singleton;
+package com.design.patterns.creational.singleton;
 
 /**
  * Classic implementation of Singleton

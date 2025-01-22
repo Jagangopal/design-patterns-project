@@ -1,0 +1,26 @@
+# Builder Pattern - Creational Pattern
+    The Builder Design Pattern is a creational pattern used in software design
+    to construct a complex object step by step
+    It allows the construction of a product in a step-by-step manner,
+    where the construction process can change based on the type of product being built
+
+Advantages
+    It provides clear separation between the construction and representation of an object.
+    It provides better control over construction process.
+    It supports to change the internal representation of objects.
+
+Real world example of Builder Pattern
+    We are considering a business case of pizza-hut where we can get different varieties of pizza
+    and cold-drink.
+    Pizza can be either a Veg pizza or Non-Veg pizza of several types
+    (like cheese pizza, onion pizza, masala-pizza etc) and will be of 4 sizes i.e. small, medium, large,
+    extra-large.
+    Cold-drink can be of several types (like Pepsi, Coke, Dew, Sprite, Fanta, Maaza,
+    Limca, Thums-up etc.) and will be of 3 sizes small, medium, large.
+
+Let's see the step by step real world example of Builder Design Pattern.
+    Step 1:Create an interface Item that represents the Pizza and Cold-drink.
+    Step 2:Create an abstract class Pizza that will implement to the interface Item.
+    Step 3:Create an abstract class ColdDrink that will implement to the interface Item.
+    Step 4:Create an abstract class VegPizza that will extend to the abstract class Pizza.
+    Step 5:Create an abstract class NonVegPizza that will extend to the abstract class Pizza.
