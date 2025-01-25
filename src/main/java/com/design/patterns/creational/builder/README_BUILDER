@@ -26,3 +26,4 @@ Let's see the step by step real world example of Builder Design Pattern.
     Step 5:Create an abstract class NonVegPizza that will extend to the abstract class Pizza.
     Step 6:Now, create concrete sub-classes SmallCheezePizza, MediumCheezePizza, LargeCheezePizza,
             ExtraLargeCheezePizza that will extend to the abstract class VegPizza.
+    Step 7:Create an OrderedItems class that are having Item objects defined above.
