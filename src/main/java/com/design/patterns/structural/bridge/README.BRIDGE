@@ -1,0 +1,19 @@
+Bridge Pattern
+"decouple the functional abstraction from the implementation so that the two can vary independently".
+
+Advantages
+    It enables the separation of implementation from the interface.
+    It improves the extensibility.
+    It allows the hiding of implementation details from the client.
+
+Implementation
+Step 1
+    Create a Question interface that provides the navigation from one question to another or vice-versa.
+Step 2
+    Create a JavaQuestions implementation class that will implement Question interface.
+Step 3
+    Create a QuestionManager class that will use Question interface which will act as a bridge..
+Step 4
+    Create a QuestionFormat class that will extend the QuestionManager class
+Step 5
+    Create a BridgePatternDemo class.
