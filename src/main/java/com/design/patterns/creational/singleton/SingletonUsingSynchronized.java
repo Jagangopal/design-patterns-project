@@ -10,7 +10,7 @@ public class SingletonUsingSynchronized {
     private SingletonUsingSynchronized(){}
 
     // Only one thread can execute this at a time
-    public static SingletonUsingSynchronized getInstance(){
+    public static synchronized SingletonUsingSynchronized getInstance(){
         if(instance == null)
             instance = new SingletonUsingSynchronized();
         return instance;
